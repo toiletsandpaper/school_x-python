@@ -16,8 +16,8 @@ _set3: set = {
 _set4: set = {
     'm', 'a', 'm', 'a'
 }
-# _set4_list = list(_set4)
-# print(_set4)
-# print(_set4)
-# print(_set4_list[0])
+_set4_list = list(_set4)
+print(_set4)
+print(_set4)
+print(_set4_list[0])
 #print(_set3.intersection(_set4))
