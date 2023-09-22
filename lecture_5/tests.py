@@ -4,7 +4,8 @@ b: list[int] = [0, 0, 1, 0, 1]
 
 
 def mask_list(array: list[int], mask: list[int]) -> list[int]:
-    assert type(array) == list
+    # bad practice!!!
+    assert isinstance(array,  list)
     return [val * mask[i] * .5 for i, val in enumerate(array)]
 
 def test_mask_list():
